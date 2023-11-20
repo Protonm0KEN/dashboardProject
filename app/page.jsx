@@ -1,7 +1,11 @@
-const Homepage = () => {
+import { redirect } from 'next/navigation'
+import React from 'react'
+
+const page = () => {
+    redirect("/dashboard")
   return (
-    <div>Homepage</div>
+    <div>page</div>
   )
 }
 
-export default Homepage
+export default page
