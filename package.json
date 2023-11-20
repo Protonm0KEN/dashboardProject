@@ -1,6 +1,7 @@
 {
   "name": "nextadmingithubstarter",
   "version": "0.1.0",
+  "homepage": "https://protonm0ken.github.io/Dashboard/",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "eslint": "8",
-    "eslint-config-next": "14.0.1"
+    "eslint-config-next": "14.0.1",
+    "gh-pages": "^6.1.0"
   }
 }
